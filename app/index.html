@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="">
-
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Restaurant de fatou</title>
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -17,60 +16,180 @@
     <!-- build:js scripts/modernizr.js -->
     <script src="scripts/modernizr.js"></script>
     <!-- endbuild -->
+    <!-- font awesome-->
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+    <!--<link href="app/your-path-to-fontawesome/css/all.css" rel="stylesheet">-->
+    <!-- normalize-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    
   </head>
   <body>
-    <!-- HEADER -->
-    <div class="container">
-      <div class="header">
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a href="#" class="nav-link active">Accueil</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">Qui sommes-nous</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">Menu</a>
-          </li>
-        </ul>
-        <h3 class="text-muted">Restaurant de fatou</h3>  
-      </div>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-custom">
+        <img class="logo-header" src="images/logo-header.jpg" alt="picture">
+        <a class="navbar-brand" href="#">YAN KADY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+            <a class="nav-link" href="index.html">ACCEUIL <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item"> 
+            <a class="nav-link" href="quisommesnous.html">QUI SOMMES-NOUS?</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="menu.html">MENU</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="prestation.html">PRESTATION</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link disabled" href="contact.html" tabindex="-1" aria-disabled="true">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>  
+      <section id="myImage" class="banner">
+        <img src="images/resto.jpg">
+      </section>
+      <div class="container-fluid">
+        <div class="quisommesnous">
+          <h4 class="title_one">Qui sommes-nous</h4>
+            <div class="image_about">
+              <img src="images/ambiance_gallery.jpg" class="img-fluid" alt="Responsive image">
+            </div>
+            <p class="story">Situé au coeur de la ville de Montreuil, le restaurant Yan Kady Chez Fatou
+            vous propose le meilleur des saveurs malienne à partager, à emporter ou en livraison dans un espace 
+            de détente, de rencontre et de découverte de saveurs, vous plongeant dans un univers culturel avec
+            des évènements divers: contes, concerts, des cours de cuisines...<br>
+            Connu pour ses délicieux mets sur les marchés de la ville de Montreuil et ses dverses
+            prestations traiteurs dans toute l'Ile de France, Fatou s'est lancée en 2014 dans l'aventure de Yan Kady.
+            Une idée née du rêve de cette mère de famille, qui souhaitait faire découvrir la gastronomie de son pays
+            d'origine, le Mali, dans son pays d'accueil.<br>
+            Pour elle et son équipe, le partage d'un repas est un moment privilégié de détente, de sénérité,
+            d'échange qui permet de se ressourcer. C'est pourquoi nous mettons tout en oeuvre de vous procurer un service de qualité
+            et ainsi vous permettre de profiter pleinement de ce moment.
+            </p>
 
-      <div class="jumbotron">
-        <h1 class="display-3">'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-
-          <h4>Sass</h4>
-          <p>Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
-
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-
-          <h4>Modernizr</h4>
-          <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
+            <p class="storybis">Différentes prestations vous sont proposés tel que:</p>
+              <div class="info">
+                <i class="fas fa-circle fa-xs spacing"><span>Un service à table des spécialités d'Afrique  de l'Ouest, notamment du Mali</span></i><br>
+                <i class="fas fa-circle fa-xs"><span>Un service de vente à emporter et de livraisons à votre domicile, sue votre lieu de travail et partout où vous le souhaitez.</span></i><br>
+                <i class="fas fa-circle fa-xs spacing-s"><span>Un service traiteur haut de gamme pour vos évènements(coktails, mariage, soirée, évènement entreprise, rencontres.<span></i><br>
+                <i class="fas fa-circle fa-xs"><span>Un service ambulant(food truck) pour vos ventes extérieures dans une ambiance musicale au grand air.</span></i><br>
+                <i class="fas fa-circle fa-xs sapcing-s"><span>L'organisation de vos évènements avec la possibilité de privatiser les lieux.</span></i>
+              </div>
+          </div>
+        </div>
+        <section id="myImage-one" class="banner-one">
+          <img src="images/saveurs.jpg">
+        </section>
+        <div class="container-fluid-one">
+            <div id="images-saveurs" class="saveurs-images text-center">
+              <img src="images/plat_plantain.jpg" id="image-rounded" class="rounded" alt="plat_plantain">
+              <img src="images/plat_grill.jpg" id="image-rounded" class="rounded" alt="plat_grill">
+              <img src="images/salade1.jpg" id="image-rounded" class="rounded" alt="salade1">
+              <img src="images/grillade1.jpg" id="image-rounded" class="rounded" alt="grillade">
+            </div>
+            <div class="alacarte">
+              <p class="text-alacarte">Á la carte</p>
+              <hr>
+                <div class="frommenu-one">
+                  <div class="image-rounded">
+                    <img src="images/beignet.jpg"  class="rounded-circle rounded-sm text-center" alt="beignet">
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <p class="description">ENTRÉE<br>
+                        <em>pâte de blé fourée au thon ou à la viande mariné</em></p>
+                    </div>
+                    <div class="col">
+                      <p class="price">5.50€</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="frommenu-two">
+                  <div class="image-rounded">
+                    <img src="images/plat_grill.jpg"  class="rounded-circle rounded-sm text-center" alt="beignet">
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <p class="description">PLAT<br>
+                      <em>Special Savanna-viande de boeuf mariné et braisé</em></p>
+                    </div>
+                    <div class="col">
+                      <p class="price">17.80€</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="frommenu-three">
+                  <div class="image-rounded">
+                    <img src="images/fruits.jpg"  class="rounded-circle rounded-sm text-center" alt="beignet">
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <p class="description">DESSERT<br>
+                      <em>Salade de fruits</em></p>
+                    </div>
+                    <div class="col">
+                      <p class="price">4.50€</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <hr>
+          <div class="prestation">
+            <div class="devis">
+              <h2>PRESTATION</h2>
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="images/people3_ambiance.jpg" class="d-block w-100" alt="people">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/salle.jpg" class="d-block w-100" alt="salle">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/buffet.jpg" class="d-block w-100" alt="buffet">
+                  </div>
+              </div>
+            </div>
+            <div class="devis_demande">
+              <button type="button" class="btn btn-link btn-lg">RESERVATION</button>
+                <div class="coordonnées">
+                  <p class="coord">Contacter-nous au 01 42 87 07 50</p>
+                  <p class="coord">Horaires</p>
+                  <p class="coord">Lundi: fermé, Mardi-Mercredi-Jeudi:12h/15h et 19h/23h30, Vendredi-Samedi:12h/15h et 19h/Minuit
+                  et Dimanche: 19h/23h30</p>
+                </div>
+            </div>
+          </div>
+          <div class="social-restaurant">
+            <div class="social">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <img src="images/halal.png">
+              <img src="images/icons8-halal-sign-50.png">
+            </div>
+          </div>
+          </div>
         </div>
       </div>
-
-      <div class="footer">
-        <p>♥ from the Yeoman team</p>
-      </div>
-    </div>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+      
+      <footer class="footer-default footer-content">
+        <div class="container">
+         <p>abc</p>
+        </div>
+      </footer>
+      
     <!-- build:js scripts/vendor.js -->
     <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
