@@ -1,23 +1,348 @@
-html, body {
+
+* {
   margin:0;
   padding:0;
-  height:100%;
+  
 }
+
+html, body {
+  height:100%;
+  overflow-x: hidden;   
+}
+
+
+/*.container-fluid {
+  height:1000px;
+}*/
+
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+  /*body {
+    background-color:red;
+  }*/
+
+  .navbar{
+    background-color:#F4A25B !important;
+    margin:0 auto;
+    margin-bottom:0;
+  }
+
+  .navbar .navbar-brand {
+    margin:0;
+    font-size:17px;
+    color:#FFFF;
+    opacity:1;
+    font-family: 'Raleway', sans-serif;
+  }
+  .navbar .navbar-toggle .navbar-toggler-icon {
+    color:(rgba(255,255, 255,.7));
+
+  }
+
+  
+  .banner{
+    background:linear-gradient(to top,
+    rgba(0,0,0, .35) 0%,
+    rgba(0,0,0, .25) 100%);
+    background-color:transparent;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:top center;
+    transition:opacity .3s ease-out;
+    height:300px;
+    margin-top:60px;
+  }
+
+  .banner img{
+    height:300px;
+  }
+
+  .banner .nabvar-brand {
+    padding-bottom:200px;
+  }
+
+  .container-fluid {
+    height:1900px;
+  }
+  .container-fluid-one {
+    height:3100px;
+  }
+
+  .quisommesnous {
+    margin-top:50px; 
+  }
+
+  .image_about {
+    text-align:center;
+    margin-top:20px;
+  }
+
+  .image_about img {
+    width: 323px;
+    height:200px;
+  }
+
+  .title_one {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    
+  }
+  .story {
+    text-align:justify;
+    border: 5px solid #F4A25B;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom:50px;  
+    margin-top:30px;
+    /*white-space:normal;*/
+  }
+
+  .storybis {
+    text-align:justify;
+    padding-left:20px;
+    padding-right:20px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom:15px;  
+      /*margin-top:30px;*/
+  }
+
+   .info {
+     margin-top:60px;
+   }
+  .fas {
+    margin-bottom:60px;
+  }
+
+  .fa-circle {
+    color:#F4A25B;
+    text-align:justify;
+    padding-left:20px;
+    padding-right:-10px;
+
+  }
+
+  .spacing {
+    word-spacing:-2px;
+  }
+  .spacin-s {
+    word-spacing:-1cm;
+  }
+
+
+  span{
+    text-align:justify;
+    padding-left:20px;
+    padding-right:20px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom:50px; 
+    color:#F4A25B;
+    margin-right:-9px;
+    font-size:15px;
+
+  }
+
+  .banner-one{
+    background:linear-gradient(to top,
+    rgba(0,0,0, .35) 0%,
+    rgba(0,0,0, .25) 100%);
+    background-color:transparent;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:top center;
+    transition:opacity .3s ease-out;
+    height:300px;
+   
+  
+  } 
+
+  .banner-one img{
+   width:100%;
+   height:300px;
+   text-align:center;
+   margin-bottom:20px;
+    
+  }
+
+  .text-alacarte {
+    margin-top: 50px;
+    font-size:30px;
+    margin-left:10px;
+    text-decoration-color: #F4A25B;
+    text-decoration-style: 2px solid;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  hr {
+    height:5px;
+    color: #F4A25B;
+    background-color:#F4A25B;
+
+  }
+
+  .frommenu-one {
+    margin-top:50px;
+  }
+
+  .frommenu-three {
+    margin-top:15px;
+  }
+
+  .saveurs-images {
+    margin-top:30px;
+    
+  }
+
+  .image-rounded {
+    text-align:center;
+  }
+
+  .rounded {
+    width:294px;
+    height:270px;
+    margin-bottom:30px;
+  }
+
+  .rounded-sm {
+    width:95px;
+    height:95px;
+    margin-bottom:30px;
+  }
+  
+  .description {
+    margin-left:15px;
+    font-size:18px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .price {
+    margin-left:30px;
+    margin-top:30px;
+    font-size:25px;
+    font-family: 'Raleway', sans-serif;
+  }
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+  }
+
+  .demande_devis {
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+  }
+
+  .carousel {
+    width:270px;
+    height:270px;
+    margin:0 auto;
+    margin-bottom:20px;
+    /*margin-left:10px;*/
+    /*margin-right:10px;*/
+
+
+  }
+
+  .carousel-item img {
+    width:100%;
+    height:270px; 
+     
+  }
+
+  .devis_demande {
+    text-align:center;
+    margin-top:50px;
+  }
+
+  .btn {
+    background-color:#F4A25B; 
+  }
+
+  .btn-link {
+    color:#FFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+  }
+
+  .prestation {
+    margin-top:100px;
+  }
+
+  .coordonnées {
+    margin-top:50px;
+  }
+
+  .coord {
+    margin-left:20px;
+    margin-right:20px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .social-restaurant {
+    background-color:#F4A25B;
+    height:100px;
+    margin-top:100px;
+  }
+
+  .footer-default {
+    height:150px;
+    /*margin-top:300px;*/
+    
+  }
+  
+  .footer-content {
+    background-color:#000;
+  }
+
+ 
 }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    background-color:blue;
+  }
+  .jumbotron{
+    background-image:url("../images/fatou1.jpg");
+    background-color:#000;
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:100%;
+    height:100%;
+    margin-bottom:0;
+    
+  }
+
+  .navbar{
+    background-color:#F4A25B !important;
+  }
+
+  .navbar .navbar-brand {
+    margin:0;
+    font-size:17px;
+    color:#FFFF;
+    opacity:1;
+  }
+  .navbar .navbar-toggle .navbar-toggler-icon {
+    color:(rgba(255,255, 255,.7));
+
+  }
+  
 }
 
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    background-color:violet;
+  }
 }
 
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
+  body {
+    background-color:pink;
+  }
 }
