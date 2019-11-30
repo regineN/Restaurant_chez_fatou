@@ -109,9 +109,10 @@ html, body {
       /*margin-top:30px;*/
   }
 
-   .info {
+  .info {
      margin-top:60px;
-   }
+  }
+
   .fas {
     margin-bottom:60px;
   }
@@ -132,7 +133,7 @@ html, body {
   }
 
 
-  span{
+  .service{
     text-align:justify;
     padding-left:20px;
     padding-right:20px;
@@ -141,6 +142,7 @@ html, body {
     color:#F4A25B;
     margin-right:-9px;
     font-size:15px;
+    font-weight:900 bold;
 
   }
 
@@ -155,7 +157,6 @@ html, body {
     transition:opacity .3s ease-out;
     height:300px;
    
-  
   } 
 
   .banner-one img{
@@ -309,15 +310,26 @@ html, body {
 
   .container-footer{
     margin-bottom:-12px;
+    
 
   }
   .footer-default {
     height:150px;
     /*margin-top:300px;*/
     
+    
   }
   .footer-content {
     background-color:#000;
+  }
+
+  .adress_fatou {
+    color:#fff;
+    font-size:12px;
+    text-align:center;
+    font-family:'Raleway', sans-serif;
+    padding-top:15px;
+    
   }
 
   .fa-copyright {
@@ -325,7 +337,7 @@ html, body {
     font-family:'Raleway', sans-serif;
     float:left;
     margin-left:110px;
-    padding-top:75px;
+    /*padding-top:30px;*/
     font-size:12px;
     
   }
