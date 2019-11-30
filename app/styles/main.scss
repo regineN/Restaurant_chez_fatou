@@ -279,21 +279,68 @@ html, body {
     font-family: 'Raleway', sans-serif;
   }
 
-  .social-restaurant {
-    background-color:#F4A25B;
-    height:100px;
-    margin-top:100px;
+  .social {
+    text-align:center;
   }
 
+  .fa-facebook {
+    color:#FFF;
+    font-size:40px;
+  }
+
+  .fa-instagram {
+    color:#FFF;
+    font-size:40px;
+  }
+
+  .social-restaurant {
+    background-color:#F4A25B;
+    height:100px;  
+    margin-top:126px;
+  }
+
+  .social-restaurant .social {
+    padding-top:20px;
+  }
+
+  .social img{
+    padding-bottom:19px;
+  }
+
+  .container-footer{
+    margin-bottom:-12px;
+
+  }
   .footer-default {
     height:150px;
     /*margin-top:300px;*/
     
   }
-  
   .footer-content {
     background-color:#000;
   }
+
+  .fa-copyright {
+    color:#fff;
+    font-family:'Raleway', sans-serif;
+    float:left;
+    margin-left:110px;
+    padding-top:75px;
+    font-size:12px;
+    
+  }
+
+  .copy-para {
+    font-family:'Raleway', sans-serif;
+    color:#fff;
+    float:right;
+    
+  
+  }
+
+  
+
+
 
  
 }
