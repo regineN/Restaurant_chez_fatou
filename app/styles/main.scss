@@ -105,12 +105,12 @@ html, body {
     padding-left:20px;
     padding-right:20px;
     font-family: 'Raleway', sans-serif;
-    padding-bottom:15px;  
+    /*padding-bottom:15px;  */
       /*margin-top:30px;*/
   }
 
   .info {
-     margin-top:60px;
+     /*margin-top:60px;*/
   }
 
   .fas {
@@ -138,7 +138,7 @@ html, body {
     padding-left:20px;
     padding-right:20px;
     font-family: 'Raleway', sans-serif;
-    padding-bottom:50px; 
+    /*padding-bottom:50px; */
     color:#F4A25B;
     margin-right:-9px;
     font-size:15px;
@@ -267,7 +267,7 @@ html, body {
   }
 
   .prestation {
-    margin-top:100px;
+    margin-top:70px;
   }
 
   .coordonnées {
@@ -297,16 +297,17 @@ html, body {
   .social-restaurant {
     background-color:#F4A25B;
     height:100px;  
-    margin-top:110px;
+    
+    
   }
-
-  .social-restaurant .social {
-    padding-top:20px;
+  
+  .social {
+    padding-top:25px;
   }
-
-  .social img{
-    padding-bottom:19px;
-  }
+  
+  /*.social img{
+    padding-bottom:25px;
+  }*/
 
   .container-footer{
     margin-bottom:-12px;
@@ -332,13 +333,21 @@ html, body {
     
   }
 
+  
+
+  .copy-copyy {
+    margin:0 auto;
+  }
+
   .fa-copyright {
     color:#fff;
     font-family:'Raleway', sans-serif;
     float:left;
-    margin-left:110px;
+    margin-left:80px;
     /*padding-top:30px;*/
     font-size:12px;
+    text-align:center;
+
     
   }
 
@@ -346,6 +355,8 @@ html, body {
     font-family:'Raleway', sans-serif;
     color:#fff;
     float:right;
+    
+
     
   
   }
