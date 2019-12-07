@@ -203,19 +203,23 @@ html, body {
     
   }
 
-  #image-rounded {
+  /*#image-rounded {
     text-align:center;
-  }
-  .saveurs-images .img-fluid {
-    max-width:100%;
-    height:auto;
-    
+  }*/
+  .saveurs-images{
+    text-align:center;
   }
 
   .rounded {
     width:300px;
-    height:400px;
+    height:300px;
     margin-bottom:30px;
+  }
+
+  .rounded .img-fluid{
+    max-width:100%;
+    height:auto;  
+    
   }
 
   .rounded-sm {
