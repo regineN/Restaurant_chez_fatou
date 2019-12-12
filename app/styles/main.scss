@@ -65,13 +65,13 @@ html, body {
     padding-bottom:200px;
   }
 
-  .container-fluid {
-    height:1900px;
-  }
-  .container-fluid-one {
+  /*.container-fluid {
+    height:1700px;
+  }*/
+  /*.container-fluid-one {
     height:2600px;
     
-  }
+  }*/
 
   .quisommesnous {
     margin-top:50px; 
@@ -80,6 +80,8 @@ html, body {
   .image_about {
     text-align:center;
     margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
 
   }
 
@@ -101,12 +103,14 @@ html, body {
   .story {
     text-align:justify;
     border: 5px solid #F4A25B;
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:30px;
+    padding-right:30px;
     padding-top:20px;
     font-family: 'Raleway', sans-serif;
     padding-bottom:50px;  
-    margin-top:30px;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
     /*white-space:normal;*/
   }
 
@@ -271,7 +275,7 @@ html, body {
 
   .devis_demande {
     text-align:center;
-    margin-top:50px;
+    margin-top:40px;
   }
 
   .btn {
@@ -373,17 +377,10 @@ html, body {
     font-family:'Raleway', sans-serif;
     color:#fff;
     float:right;
-    
-
-    
   
   }
 
-  
-
-
-
- 
+   
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -416,6 +413,345 @@ html, body {
     color:(rgba(255,255, 255,.7));
 
   }
+  .banner{
+    background:linear-gradient(to top,
+    rgba(0,0,0, .35) 0%,
+    rgba(0,0,0, .25) 100%);
+    background-color:transparent;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:top center;
+    transition:opacity .3s ease-out;
+    height:auto;
+    margin-top:60px;
+  }
+
+
+  .img-fluid img {
+    max-width:100%;
+    height:auto;
+    
+  }
+
+  .banner .nabvar-brand {
+    padding-bottom:200px;
+  }
+
+  /*.container-fluid {
+    height:1700px;
+  }*/
+  /*.container-fluid-one {
+    height:2600px;
+    
+  }*/
+
+  .quisommesnous {
+    margin-top:50px; 
+  }
+
+  .image_about {
+    text-align:center;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+
+  }
+
+  .image_about.img-fluid  {
+    max-width:100%;
+    height:auto;
+    
+  }
+
+  .image-about{
+    width:400px;
+  }
+
+  .title_one {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    
+  }
+  .story {
+    text-align:justify;
+    border: 5px solid #F4A25B;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:20px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom:50px;  
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    /*white-space:normal;*/
+  }
+
+  .storybis {
+    text-align:justify;
+    padding-left:20px;
+    padding-right:20px;
+    font-family: 'Raleway', sans-serif;
+    /*padding-bottom:15px;  */
+      /*margin-top:30px;*/
+  }
+
+  /*.info {
+     /*margin-top:60px;
+  }*/
+
+  .fas {
+    margin-bottom:60px;
+  }
+
+  .fa-circle {
+    color:#F4A25B;
+    text-align:justify;
+    padding-left:20px;
+    padding-right:-10px;
+
+  }
+
+  .spacing {
+    word-spacing:-2px;
+  }
+  .spacin-s {
+    word-spacing:-1cm;
+  }
+
+
+  .service{
+    text-align:justify;
+    padding-left:20px;
+    padding-right:20px;
+    font-family: 'Raleway', sans-serif;
+    /*padding-bottom:50px; */
+    color:#F4A25B;
+    margin-right:-9px;
+    font-size:15px;
+    font-weight:900 bold;
+
+  }
+
+  .banner-one{
+    background:linear-gradient(to top,
+    rgba(0,0,0, .35) 0%,
+    rgba(0,0,0, .25) 100%);
+    background-color:transparent;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:top center;
+    transition:opacity .3s ease-out;
+    height:auto;
+   
+  } 
+
+  .banner-one .img-fluid{
+   max-width:100%;
+  height:auto;
+    
+  }
+
+  .text-alacarte {
+    margin-top: 50px;
+    font-size:30px;
+    margin-left:10px;
+    text-decoration-color: #F4A25B;
+    text-decoration-style: 2px solid;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  hr {
+    height:5px;
+    color: #F4A25B;
+    background-color:#F4A25B;
+
+  }
+
+  .frommenu-one {
+    margin-top:50px;
+  }
+
+  .frommenu-three {
+    margin-top:15px;
+  }
+
+  .saveurs-images {
+    margin-top:30px;
+    
+  }
+
+  .image-rounded {
+  text-align:center;
+  }
+
+  .saveurs-images{
+    text-align:center;
+  }
+
+  .rounded {
+    padding-left:25px;
+    padding-right:25px;
+    margin-bottom:30px;
+  }
+
+  .img-fluid{
+    max-width:100%;
+    height:auto;  
+    
+  }
+
+  .rounded-sm {
+    width:95px;
+    height:95px;
+    margin-bottom:30px;
+  }
+  
+  .description {
+    margin-left:15px;
+    font-size:18px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .price {
+    margin-left:30px;
+    margin-top:30px;
+    font-size:25px;
+    font-family: 'Raleway', sans-serif;
+  }
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+  }
+
+  .demande_devis {
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+  }
+
+  .carousel {
+    width:270px;
+    height:270px;
+    margin:0 auto;
+    margin-bottom:20px;
+    /*margin-left:10px;*/
+    /*margin-right:10px;*/
+
+
+  }
+
+  .carousel-item img {
+    width:100%;
+    height:270px; 
+     
+  }
+
+  .devis_demande {
+    text-align:center;
+    margin-top:40px;
+  }
+
+  .btn {
+    background-color:#F4A25B; 
+  }
+
+  .btn-link {
+    color:#FFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+  }
+
+  .prestation {
+    margin-top:70px;
+  }
+
+  .coordonnées {
+    margin-top:50px;
+  }
+
+  .coord {
+    margin-left:20px;
+    margin-right:20px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .social {
+    text-align:center;
+  }
+
+  .fa-facebook {
+    color:#FFF;
+    font-size:40px;
+  }
+
+  .fa-instagram {
+    color:#FFF;
+    font-size:40px;
+  }
+
+  .social-restaurant {
+    background-color:#F4A25B;
+    height:100px;  
+    
+    
+  }
+  
+  .social {
+    padding-top:25px;
+  }
+  
+  /*.social img{
+    padding-bottom:25px;
+  }*/
+
+  .container-footer{
+    margin-bottom:-12px;
+    
+
+  }
+  .footer-default {
+    height:150px;
+    /*margin-top:300px;*/
+    
+    
+  }
+  .footer-content {
+    background-color:#000;
+  }
+
+  .adress_fatou {
+    color:#fff;
+    font-size:12px;
+    text-align:center;
+    font-family:'Raleway', sans-serif;
+    padding-top:15px;
+    
+  }
+
+  
+
+  .copy-copyy {
+    margin:0 auto;
+  }
+
+  .fa-copyright {
+    color:#fff;
+    font-family:'Raleway', sans-serif;
+    float:left;
+    margin-left:80px;
+    /*padding-top:30px;*/
+    font-size:12px;
+    text-align:center;
+
+    
+  }
+
+  .copy-para {
+    font-family:'Raleway', sans-serif;
+    color:#fff;
+    float:right;
+  
+  }
+
   
 }
 
