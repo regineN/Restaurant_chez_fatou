@@ -220,6 +220,7 @@ html, body {
     padding-left:25px;
     padding-right:25px;
     margin-bottom:30px;
+    
   }
 
   .img-fluid{
@@ -583,21 +584,28 @@ html, body {
   .image-rounded {
   text-align:center;
   }
+  
 
   .saveurs-images{
-    text-align:center;
+    padding-left:25px;
+    /*text-align:center;*/
   }
 
   .rounded {
-    padding-left:25px;
+    display:flex;
+    justify-content:center;
+    flex-flow:wrap;
+    flex-direction:column;
     padding-right:25px;
     margin-bottom:30px;
+    width:300px;
+    height:300px;
   }
 
   .img-fluid{
     max-width:100%;
-    height:auto;  
-    
+    height:auto; 
+  
   }
 
   .rounded-sm {
