@@ -223,6 +223,8 @@ html, body {
     
   }
 
+  
+
   .img-fluid{
     max-width:100%;
     height:auto;  
@@ -264,7 +266,6 @@ html, body {
     margin-bottom:20px;
     /*margin-left:10px;*/
     /*margin-right:10px;*/
-
 
   }
 
@@ -588,14 +589,12 @@ html, body {
 
   .saveurs-images{
     padding-left:25px;
-    /*text-align:center;*/
+    text-align:center;  
   }
 
+  
+
   .rounded {
-    display:flex;
-    justify-content:center;
-    flex-flow:wrap;
-    flex-direction:column;
     padding-right:25px;
     margin-bottom:30px;
     width:300px;
